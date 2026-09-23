@@ -11,10 +11,10 @@ from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PhoneCodeExpiredError
 
 # AIOGRAM VA TELEGRAM API SOZLAMALARI
-BOT_TOKEN = "BOT_TOKENINI_BU YERGA_YOZING"
-API_ID = 1234567  # my.telegram.org saytidan olingan API ID
-API_HASH = "YOUR_API_HASH"  # my.telegram.org saytidan olingan API HASH
-ADMIN_ID = 123456789  # Sizning Telegram ID'ingiz
+BOT_TOKEN = "8751865013:AAHqEWU3ygRg5mA4Wd1gYNaQEZB0UFaMRUw"
+API_ID = 34760616  # my.telegram.org saytidan olingan API ID
+API_HASH = "1bea40adc634f0205e907f0a1873e7b8"  # my.telegram.org saytidan olingan API HASH
+ADMIN_ID = 7651404790  # Sizning Telegram ID'ingiz
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
